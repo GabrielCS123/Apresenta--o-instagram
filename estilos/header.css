@@ -17,6 +17,20 @@
     margin-right: 12em;
 }
 
+.secao_icons_header {
+    display: flex;
+    align-items: center;
+}
+
+.secao_icons_header a {
+    text-decoration: none;
+}
+
+.secao_icons_header img {
+    width: 50px;
+    margin-right: 1em;  
+}
+
 .link_header {
     margin-left: 1em;
     text-decoration: none;
