@@ -315,17 +315,19 @@ main {
     .secao_principal {
         text-align: center;
         justify-content: center;
+        flex-direction: column;
         padding-right: 0;
         padding-left: 0;
     }
 
     .texto_principal {
-        font-size: 1em;
         text-align: center;
-        padding-right: 2em;
-        padding-left: 2em;
     }
-
+    
+    .secao_apresentacao p {
+        margin: 0;
+    }
+    
     .titulo_projetos,
     .titulo_resumo {
         font-size: 2em;
