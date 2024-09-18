@@ -20,8 +20,9 @@ main {
 .secao_principal {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
     margin: 0 -1.5em;
-    padding: 10em 5em;
+    padding: 10em 0em;
     background: linear-gradient(180deg, #111, #111, rgba(0, 20, 204, 0.116), rgba(142, 9, 182, 0.103));
 }
 
@@ -41,11 +42,23 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
+.texto_secao_principal {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
 .texto_contato {
     font-size: .8em;
     margin: 3em 0;
     color: #83408b;
     font-family: "Optima", sans-serif;
+}
+
+.imagem__principal {
+    width: 640px;
+    height: 406.5px;
+    aspect-ratio: auto;
 }
 
 /*botao intagram*/
@@ -62,7 +75,7 @@ main {
     z-index: 0;
     border-radius: 10px;
     text-decoration: none;
-    font-size: .7em;
+    font-size: 1.5em;
 }
 
 .container_botao_instagram:before {
@@ -156,8 +169,6 @@ main {
 }
 
 .importancia {
-    margin: 0 10em 5em 10em;
-    margin-bottom: 5em;
     font-size: 1.5em;
 }
 
@@ -169,6 +180,11 @@ main {
 .importancia1 {
     text-align: center;
     margin-bottom: 4em;
+}
+
+.importancia1  P, .importancia2  P {
+    background-color: #a7a7a794;
+    padding: 2em;
 }
 
 .importancia1 h2, .importancia2 h2 {
@@ -280,7 +296,8 @@ main {
 }
 
 .secao_apresentacao {
-    padding: 10em 0;
+    border-top: 1px solid #fff ;
+    padding: 10em 20em;
     color: white;
 }
 
@@ -342,7 +359,6 @@ main {
         background: none;
         border: none;
     }
-
 
     .importancia {
         margin: 0 1em 5em 1em;

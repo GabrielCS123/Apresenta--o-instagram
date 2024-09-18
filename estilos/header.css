@@ -1,22 +1,21 @@
 .cabecario {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
-    width: 100%;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
     top: 0;
     left: 0;
+    z-index: 1000;
     backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgb(83, 83, 83);
+    background-color: rgba(0, 0, 0, 0.518);
     padding-top: 1em;
     padding-bottom: 1em;
-    border-bottom: 2px solid rgb(83, 83, 83);
-    padding-left: 5em;
-
-    background-color: rgba(0, 0, 0, 0.518);
 }
 
 .secao_links_header {
-    margin-right: 12em;
+    width: auto;
 }
 
 .secao_icons_header {
@@ -30,7 +29,7 @@
 
 .secao_icons_header img {
     width: 50px;
-    margin-right: 1em;  
+    margin-right: 1em;
 }
 
 .link_header {
