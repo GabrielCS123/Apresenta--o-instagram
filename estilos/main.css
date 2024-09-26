@@ -247,7 +247,8 @@ main {
     font-size: 1.5em;
 }
 
-.importancia p,h2 {
+.importancia p,
+h2 {
     color: rgb(0, 0, 0);
     font-family: "Rubik", sans-serif;
 }
@@ -257,12 +258,14 @@ main {
     margin-bottom: 4em;
 }
 
-.importancia1  P, .importancia2  P {
+.importancia1 P,
+.importancia2 P {
     background-color: #a7a7a794;
     padding: 2em;
 }
 
-.importancia1 h2, .importancia2 h2 {
+.importancia1 h2,
+.importancia2 h2 {
     background-image: linear-gradient(60deg, rgb(0, 0, 0), rgb(99, 80, 161));
     background-clip: text;
     -webkit-background-clip: text;
@@ -359,7 +362,7 @@ main {
 
 .contato li img {
     width: 1em;
-   /* filter: invert(80%);*/
+    /* filter: invert(80%);*/
 }
 
 .contato li a:hover {
@@ -380,7 +383,7 @@ main {
 }
 
 .secao_apresentacao {
-    border-top: 1px solid #fff ;
+    border-top: 1px solid #fff;
     padding: 10em 20em;
     color: white;
 }
@@ -399,13 +402,37 @@ main {
 @media screen and (max-width: 1100px) {
 
 
+
+
+    .secao_links_header {
+        display: none;
+    }
+
     .container_botao_instagram {
         font-size: 1.5em;
     }
 
     .titulo_contato_main {
         font-size: 2em;
-        text-align: center;
+        text-align: left;
+    }
+
+    .titulo_contato_main {
+        font-size: 1.5em;
+    }
+
+    .contatos_zap {
+        font-size: 1em;
+    }
+
+    .contatos_email {
+        font-size: 1em;
+    }
+    
+    .contato {
+        padding: 0em;
+        display: flex;
+        justify-content: right;
     }
 
     .titulo_secao_principal {
@@ -431,12 +458,23 @@ main {
 
     .texto_principal {
         text-align: center;
+        font-size: 2em;
     }
-    
+
     .secao_apresentacao p {
         margin: 0;
+        font-size: 1.5em;
     }
-    
+
+    .secao_apresentacao {
+        padding: 0;
+        margin-bottom: 15em;
+        padding-top: 10em;
+
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
     .titulo_projetos,
     .titulo_resumo {
         font-size: 2em;
@@ -454,6 +492,71 @@ main {
 
     .importancia {
         margin: 0 1em 5em 1em;
+    }
+
+    .imagem__principal {
+        width: 320px;
+        height: 203px;
+        margin-top: 2em;
+    }
+
+    .texto_secao_principal {
+        text-align: center;
+    }
+
+    .conteudo_secao_principal1 {
+        text-align: center;
+    }
+
+    .container_botao_zap {
+        margin: 0;
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+
+    .container_botao_instagram {
+        margin: 0;
+        padding: 1em;
+    }
+
+    .conteudo_secao_principal2 {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo_secao_principal {
+        margin: 2em;
+    }
+
+
+}
+
+@media screen and (max-width: 455px) {
+    .contatos {
+        display: none;
+    }
+    .contato {
+        display: flex;
+        justify-content: center;
+    }
+    .contato_itens {
+        margin: 0;
+        padding: 0;
+    }
+
+    .titulo_contato_main {
+        text-align: center;
+    }
+
+    .contato ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato ul li {
+        width: 32px;
     }
 
 }
